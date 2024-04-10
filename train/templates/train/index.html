@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="{% static 'train/style.css' %}" />
+
+</head>
+
+<body>
+    <h1>Welcome <div id="name">{{ username }}</div>
+    </h1>
+
+    <h2>Train dispo pour Nantes</h2>
+    <ul>
+        <li class="tgv">TGV</li>
+        <li class="ouigo">ouigo</li>
+        <li class="Firstclass">Firstclass</li>
+    </ul>
+
+    <h2>Train dispo pour Marseille</h2>
+    <ul>
+        <li class="tgv">TGV</li>
+        <li class="ouigo">ouigo</li>
+        <li class="Firstclass">Firstclass</li>
+    </ul>
+
+    <h2>Train dispo pour Paris</h2>
+    <ul>
+        <li class="tgv">TGV</li>
+        <li class="ouigo">ouigo</li>
+        <li class="Firstclass">Firstclass</li>
+    </ul>
+
+    <h2>Train dispo pour Montpellier</h2>
+    <ul>
+        <li class="tgv">tgv</li>
+        <li class="ouigo">ouigo</li>
+        <li class="Firstclass">Firstclass</li>
+    </ul>
+
+</body>
+</html>
